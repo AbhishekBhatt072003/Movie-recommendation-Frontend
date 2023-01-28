@@ -20,4 +20,21 @@ export default makeStyles((theme) => ({
     color: 'primary',
     fontSize: 30,
   },
+  // center the button
+  buttonContainer: {
+    display: 'flex',
+    alignContent: 'center',
+    justifyContent: 'center',
+    margin: '5% 5%',
+  },
+  imageButton: {
+    width: '90%',
+    margin: '5% 5%',
+  },
+  // imageButtonDesc: {
+  //   textAlign: 'center',
+  //   color: theme.palette.text.primary,
+
+  // },
+
 }));

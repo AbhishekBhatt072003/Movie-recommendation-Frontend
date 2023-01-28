@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { TextField, InputAdornment } from '@mui/material';
 import { Search as SearchIcon } from '@mui/icons-material';
 import { useDispatch } from 'react-redux';
-
+import axios from 'axios';
 import useStyles from './styles';
 import { searchMovie } from '../../features/currentGenreOrCategory';
 
@@ -10,10 +10,14 @@ function Search() {
   const classes = useStyles();
   const [query, setQuery] = useState('');
   const dispatch = useDispatch();
+  const predictedMoviesData = {
+    results: {}
+  };
 
-  const handleKeyPress = (e) => {
+
+  const handleKeyPress = async (e) => {
     if (e.key === 'Enter') {
-      dispatch(searchMovie(query));
+      window.location.href = "/" + query;
     }
   };
 
