@@ -13,6 +13,9 @@ To enhance accessibility, an API for the actor prediction part of the project wa
 <li>REST APIs</li>
 <li>OpenCV</li>
 <li>Haar cascades</li>
-
-Demo Link : 
+<br>
+Demo Link : https://drive.google.com/file/d/1-ttHGlxDKgZyXa9o6uf5FFIad94MhktI/view?usp=sharing
+<br>
+Actor API hosted link : https://rapidapi.com/AbhishekBhatt072003/api/actor-movie-api1
+<br>
 Feel free to explore the project and contribute to its development! 🎬👨‍🎤
